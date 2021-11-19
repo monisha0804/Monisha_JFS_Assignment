@@ -1,0 +1,28 @@
+1. Hello world 
+
+//
+package com.example.demo;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@Controller
+public class HelloWorld {
+	
+	
+	@RequestMapping("welcome")
+	public String show() {
+		
+		return "hello world";
+		
+		
+	}
+	
+}
+
+
+Output:
+
+localhost:8089/welcome
+
+hello world

@@ -1,0 +1,67 @@
+SPRING MVC assignments:
+1.Hello world display:
+
+//index.jsp:
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+
+<a href = "url">click here</a>
+</body>
+</html>
+
+//hello.jsp
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+
+</head>
+<body>
+      Hello World
+</body>
+</html>
+
+//HelloWorld class:
+package com.example.demo;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@Controller
+public class HelloWorld {
+	
+	
+	@RequestMapping("welcome")
+	public String show() {
+		
+		return "index.jsp";
+		
+		
+	}
+	@RequestMapping("url")
+	public String run() {
+		
+		return "hello.jsp";
+		
+		
+	}
+}
+
+Output:
+ 
+In browser:
+http://localhost:8989/welcome
+
+click here
+
+http://localhost:8989/welcome/url
+Hello world

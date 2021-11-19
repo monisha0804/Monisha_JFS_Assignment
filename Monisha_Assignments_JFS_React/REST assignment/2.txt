@@ -1,0 +1,32 @@
+2. Authenticate user 
+
+//Practice class:
+
+package com.example.demo;
+
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class Practice {
+	
+	
+		
+		@RequestMapping("/authenticate/{username}/{password}")
+		public String getMessage(@PathVariable("username") String username, @PathVariable("password") String password) {
+			String User = "monisha@mail.com";
+			String Pass = "Moni@0804";
+			
+			if(username.equals(User) && password.equals(Pass)) {
+				return "Valid User";
+			} else {
+				return "Invalid User";
+			}
+		}
+	}
+
+OUTPUT:
+
+localhost:1088/authenticate/monisha@mail.com/Moni0804@
+Valid User
