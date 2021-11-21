@@ -1,0 +1,104 @@
+Class Stream(Fruits):
+
+package com.example;
+
+class Stream  {
+	String name;
+	int calories;
+	int price;
+	String color;
+	public Stream(String name, int calories, int price, String color) {
+		super();
+		this.name = name;
+		this.calories = calories;
+		this.price = price;
+		this.color = color;
+	}
+	@Override
+	public String toString() {
+		return "Fruit [name=" + name + ", calories=" + calories + ", price=" + price + ", color=" + color + "]";
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public int getCalories() {
+		return calories;
+	}
+
+	public int getPrice() {
+		return price;
+	}
+
+	public String getColor() {
+		return color;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public void setCalories(int calories) {
+		this.calories = calories;
+	}
+
+	public void setPrice(int price) {
+		this.price = price;
+	}
+
+	public void setColor(String color) {
+		this.color = color;
+	}
+}
+
+Main Class:
+
+package com.example;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Map;
+import java.util.stream.Collectors;
+import java.util.Comparator;
+
+
+
+public class Stream_one {
+
+	public static void main(String[] args) {
+		List<Stream> productsList = new ArrayList<Stream>();  
+		productsList.add(new Stream("Apple",110,110,"red"));  
+        productsList.add(new Stream("Orange",150,120,"orange"));  
+        productsList.add(new Stream("Pineapple",135,125,"yellow"));  
+        productsList.add(new Stream("CustardApple",128,90,"green"));  
+        productsList.add(new Stream("Grapes",55,96,"Black"));  
+        
+        List<Stream> filteredFruits = productsList.stream()
+				.filter(f -> f.calories < 100)
+				.sorted(Comparator.comparing(Stream::getCalories).reversed())
+				.toList();  
+		System.out.println("Fruits with low calories" + filteredFruits);
+		
+		
+		 Map<String, List<String>> colorFruits = productsList.stream()
+				 .collect(Collectors.groupingBy(Stream::getColor, 
+						 Collectors.mapping(Stream::getName, Collectors.toList()))
+	             );
+		 System.out.println("Fruit colour " + colorFruits);
+		 
+		 
+		 List<Stream> redFruits = productsList.stream()
+					.filter(f -> f.getColor().equals("red"))
+					.sorted(Comparator.comparing(Stream::getPrice))
+					.toList(); 		  
+			System.out.println("Red colour fruits" + redFruits);
+			
+			
+	}}
+		
+OUTPUT:
+
+Fruits with low calories[Fruit [name=Grapes, calories=55, price=96, color=Black]]
+Fruit colour {orange=[Orange], red=[Apple], green=[CustardApple], yellow=[Pineapple], Black=[Grapes]}
+Red colour fruits[Fruit [name=Apple, calories=110, price=110, color=red]]
