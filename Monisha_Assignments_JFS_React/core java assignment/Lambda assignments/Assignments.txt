@@ -1,0 +1,76 @@
+LAMBDA EXPRESSION:
+
+1.Arithmetic expression 
+
+package com.example;
+
+
+	interface Arithmetic {
+		int operation(int a, int b);
+	}
+	public class Example {
+		
+	
+		public static void main(String[] args) {
+
+			
+			Arithmetic addition = (int a, int b) -> (a + b);
+			System.out.println("Addition = " + addition.operation(5, 6));
+
+			
+			Arithmetic subtraction = (int a, int b) -> (a - b);
+			System.out.println("Subtraction = " + subtraction.operation(5, 3));
+
+			
+			Arithmetic multiplication = (int a, int b) -> (a * b);
+			System.out.println("Multiplication = " + multiplication.operation(4, 6));
+
+			
+			Arithmetic division = (int a, int b) -> (a / b);
+			System.out.println("Division = " + division.operation(12, 6));
+			
+		}
+	
+}
+
+OUTPUT:
+
+Addition = 11
+Subtraction = 2
+Multiplication = 24
+Division = 2
+
+
+2.Print Orders:
+
+package com.example;
+
+interface Order{
+	void print(int a);
+}
+
+
+
+public class Orders {
+	public static void main(String[] args) {
+		Order price=(int a) -> {
+			
+			if(a>10000) {
+				System.out.println("Accepted");
+			}
+			else {
+				
+			System.out.println("Rejected");
+			}
+			};	
+		
+	price.print(10001);
+	price.print(5048);
+		}
+}
+
+OUTPUT:
+
+Accepted
+Rejected
+
