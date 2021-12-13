@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Css question1 sample</title>
+</head>
+<body style="background-color:lightblue">
+<h1 style="background-color:blue;">CSS Background - colour example!</h1>
+<div style="background-color: lightslategray;">
+    <h3 >This is a text inside div element</h3> </div>
+    <p  style="background-color:aqua;">This paragraph has its own background-color</p>
+<div style="background-color: lightslategray;">
+    <h3 >This is a text inside div element</h3> </div> 
+</div>
+</body>
+</html>
