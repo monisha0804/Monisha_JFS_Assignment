@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       <link rel="stylesheet" href="css1.css">
+    </head>
+    <body>
+<div class="container">
+    <div class="jumbotron">
+        <div class="row">
+          <div class="col-md-12">
+              <h1 class="text-center">Mohandas Karamchand Gandhi</h1>
+              <h2 class="text-center">2 October 1869 – 30 January 1948</h2>
+              <h3 class="text-center">“A man is but the product of his thoughts. What he thinks, he becomes.”</h3>
+            <div class="thumbnail center"> Mohandas Karamchand Gandhi (/ˈɡɑːndi, ˈɡændi/; GAHN-dee; 2 October 1869 – 30 January 1948) was an Indian lawyer, anti-colonial nationalist and political ethicist who employed nonviolent resistance to lead the successful campaign for India's independence from British rule,and to later inspire movements for civil rights and freedom across the world.</div>
+              <div class="thumbnail">
+                  <img src="image/gandhi.jpg" width="300px" height="300px" alt="Mohandas Karamchand Gandhi">
+                  <div class="caption text-center">
+                      The most popular image of Gandhi
+                  </div>
+              </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+              <p>Mohandas Karamchand Gandhi, popularly known as Mahatma Gandhi, is regarded as the Father of Nation. Gandhi was a social reformist and leader of Indian Independence Movement who introduced the idea of non-violent resistance called Satyagrah. Gandhi was born in Gujarat and studied law at the Inner Temple, London. After organising a civil disobedience movement for Indians living in South Africa, he returned to India in 1915. In India, he set out on a train journey to different parts of the country trying to understand problems of farmers, peasants and urban labourers and organising protests for them. He assumbed the leadership of Indian National Congress in 1921 and rose to become its most prominent leader and an iconic figure in Indian politics. He organised the Dandi Salt March in 1930 and Quit India Movement in 1942. He also worked for the upliftment of untouchables and have them a new name 'Harijan' meaning the children of God. Gandhi also wrote extensively for various newspapers and his symbol of self-reliance - the spinning wheel - became a popular symbol of Indian Independence Movement. Gandhi played a key role in pacifying people and averting the Hindu-Muslim riots as tensions rose before and during the partition of the country. He was shot dead by Nathuram Godse on January 31, 1948.</p>
+          </div>
+        </div>
+    </div>
+    </div>
+</body>
+</html>
+
+//css file
+.thumbnail {background-color: #eee;}
+body {margin-top: 33px;}
+.thumbnail .caption {background-color: #ddd;}
