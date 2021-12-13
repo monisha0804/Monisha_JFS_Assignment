@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            CSS question7 
+        </title>
+        <style>
+            p.e{
+                border: 1.5px solid orange;
+                outline-style: dotted;
+                outline-color: rgb(12, 245, 12);
+            }
+        </style>
+    </head>
+    <body>
+        <p class="e">
+            <strong>Note:</strong> IE8 supports the outline properties only if a !DOCTYPE is specified 
+         </p>
+    </body>
+</html>
