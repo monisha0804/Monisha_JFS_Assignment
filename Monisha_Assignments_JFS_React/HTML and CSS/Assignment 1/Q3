@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>question3</title>
+    <style>
+        th,td {
+            border: 1px solid
+        }
+    </style>
+</head>
+<body>
+    <h3>one column  </h3>
+    <table>
+        
+        <tr> 
+            <td>100</td>
+        </tr>
+    </table>
+
+   <h3>One row three colunm</h3>
+   <table>
+        <tr>
+            <td>100</td>
+            <td>200</td>
+            <td>300</td>
+            
+        </tr>
+    </table>
+    <h3>Two rows two columns </h3>
+    <table>
+        <tr>
+            <td>100</td>
+            <td>200</td>
+            <td>300</td>
+        </tr>
+        <tr>
+            <td>400</td>
+            <td>500</td>
+            <td>600</td>
+        </tr>
+    </table>
+</body>
+</html>
