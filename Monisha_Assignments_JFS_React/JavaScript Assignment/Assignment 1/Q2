@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>JS Question2 </title>
+  </head>
+
+  <body>
+
+<script src="js2.js">
+
+</script>
+
+</body>
+</html>
+
+//js file
+
+var number = window.prompt("Enter the number: ");
+var sum=0;
+var i;
+for(i=1;i<=number;i++){
+  if((i%3==0) || (i%5==0)){
+  sum=sum+i;
+}
+}
+  document.write("sum is " + sum);
