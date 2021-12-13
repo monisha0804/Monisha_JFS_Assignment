@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="css3.css">
+    </head>
+    <body>
+        <div>
+            <h2>PARALLAX WEBSITE</h2>
+        
+        </div>
+        <div>
+            <h2>SECTION 1</h2>
+            <p> Parallax scrolling is a technique in computer graphics where background images move past the camera more slowly than foreground images, creating an illusion of depth in a 2D scene of distance.</p>
+        </div>
+        <div>
+            <h2>SECTION 2</h2>
+            <p> Parallax scrolling is a web design technique in which the website background moves at a slower pace than the foreground. This results in a 3D effect as visitors scroll down the site, adding a sense of depth and creating a more immersive browsing experience.</p>
+            </div>
+        <div>
+            <h2>SECTION 3</h2>
+            <p> Giving the photographs even more movement are minute animations. While these are barely discernible, the website animations - combined with the use of parallax and video - make this page fully come to life. </p>
+        </div>
+
+    </body>
+</html>
+
+//CSS File
+
+*{
+    border: 0;
+    margin: 0;
+    padding:0;
+}
+h2{
+    text-align: center;
+}
+div{
+
+display: flex;
+align-items: center;
+justify-content: center;
+font-weight: bold;
+font-family: Arial;
+width: 100%;
+height: 100vh;
+}
+
+div:nth-child(1){
+    background-image: url(image/bg-image.jpg);
+    background-size: cover;
+    height: 500px;
+    background-attachment: fixed;
+    text-align: center;
+    
+}
+div:nth-child(3){
+    background-image: url(image/bg-image2.jpg);
+    background-size: cover;
+    height: 500px;
+    background-attachment: fixed;
+    text-align: center;
+
+}
+div:nth-child(2){
+    background-color: aqua;
+    background-size: cover;
+    height: 500px;
+    background-attachment: fixed;
+    text-align: center;
+    background-color: rgb(45, 13, 228);
+}
+div:nth-child(4){
+    background-color: aqua;
+    background-size: cover;
+    height: 500px;
+    background-attachment: fixed;
+    text-align: center;
+    background-color: paleturquoise
+}
+
