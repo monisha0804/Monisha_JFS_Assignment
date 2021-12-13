@@ -48,7 +48,7 @@
             <label for="dropdown" id="dropdown-label">Department</label>
           </div>
           <div class="fields">
-            <select name="Location of positive event" id="dropdown" class="dropdown">
+            <select name="Department" id="dropdown" class="dropdown">
                 <option value="ECE">ECE</option>
                 <option value="CSE">CSE</option>
                 <option value="MECH">MECH</option>
@@ -86,7 +86,7 @@
         </div>
         <div class="form-rows">
           <div class="labels">
-            <label for="feelings">
+            <label for="experience">
               What kind of experience did you get?
               <br>
               (Select all that apply)
