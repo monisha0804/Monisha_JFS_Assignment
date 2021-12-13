@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSS Question 8</title>
+<style>
+p.e1 {
+    background-color: paleturquoise;
+    border: 1px solid black;
+    outline-style: solid;
+    outline-width: thin;
+  }
+  
+  p.e2 {
+    background-color: paleturquoise;
+    border: 1px solid black;
+    outline-style: solid;
+    outline-width: medium;
+  }
+  
+  p.e3 {
+    background-color: paleturquoise;
+    border: 1px solid black;
+    outline-style: solid;
+    outline-width: thick;
+  }
+  </style>
+  </head>
+  <body>
+      <p class="e3">Some Text</p>
+      <p class="e2">Some Text</p>
+      <p class="e1">Some Text</p>
+  </body>
