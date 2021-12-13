@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>
+        Question5
+    </title>
+</head>
+<body>
+    <h2>Numbered list</h2>
+    <ol type="1">
+        <li>orange</li>
+        <li>apple</li>
+        <li>banana</li>
+        <li>grapes</li>
+    </ol>
+
+    <h2>Letters list</h2>
+    <ol type="A">
+        <li>orange</li>
+        <li>apple</li>
+        <li>banana</li>
+        <li>grapes</li>
+    </ol>
+    <h2>Lowercase list</h2>
+    <ol type="a">
+        <li>orange</li>
+        <li>apple</li>
+        <li>banana</li>
+        <li>grapes</li>
+    </ol>
+    <h2>Roman numbered list</h2>
+    <ol type="I">
+        <li>orange</li>
+        <li>apple</li>
+        <li>banana</li>
+        <li>grapes</li>
+    </ol>
+    <h2>Lowercase Roman numbered list</h2>
+    <ol type="i">
+        <li>orange</li>
+        <li>apple</li>
+        <li>banana</li>
+        <li>grapes</li>
+    </ol>
+</body>
+</html>
