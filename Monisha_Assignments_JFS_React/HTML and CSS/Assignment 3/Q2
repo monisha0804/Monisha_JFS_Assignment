@@ -59,7 +59,7 @@
         </div>
         <div class="form-rows">
           <div class="labels">
-            <label for="time-of-day">Place of industrial visit</label>
+            <label for="place-of-visit">Place of industrial visit</label>
           </div>
           <div class="fields">
             <ul id="place" style="list-style: none;">
