@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>JS Sample</title>
+  </head>
+  <body>
+      <script src="q1.js">
+      </script>
+</body>
+</html>
+
+
+//JS file
+
+var number = window.prompt("Enter a positive number: ");
+var sum=0;
+var i;
+for(i=1;i<=number;i++){
+  sum=sum+i;
+}
+  document.write("sum is " + sum);
