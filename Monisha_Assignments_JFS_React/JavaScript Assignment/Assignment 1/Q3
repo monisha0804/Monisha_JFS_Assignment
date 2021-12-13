@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>JS Question3</title>
+  </head>
+
+  <body>
+
+<script src="js3.js">
+
+</script>
+
+</body>
+</html>
+
+//js file
+
+var number = window.prompt("Enter the number: ");
+function num(number){
+if(number%2==0){
+  return "even";
+}
+else {
+  return "odd";
+}
+
+}
+  document.write("The given number is " + num(number));
