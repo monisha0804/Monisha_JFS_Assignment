@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>JS Question3</title>
+  </head>
+
+  <body>
+
+<script src="js5.js">
+
+</script>
+
+</body>
+</html>
+
+//JS file
+
+var currentYear = window.prompt("Enter the year: ");
+var n = 0; //n=number of years printed
+
+function leapYears() {
+    while (n < 20) { 
+        if ((currentYear % 4 == 0) && (!((currentYear % 100==0) && (currentYear % 400 !== 0)))) {
+            document.write(currentYear + "<br>");
+            n++;
+            currentYear++;
+        } else {
+            currentYear++;
+        }
+    }       
+}
+
+leapYears();
