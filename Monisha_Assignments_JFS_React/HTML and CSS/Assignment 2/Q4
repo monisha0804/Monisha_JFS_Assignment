@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CSS Question 4</title>
+        <style>
+            a:link {
+                color: red;
+            }
+            a:visited {
+                color: green;
+            }
+            a:hover{
+                color: blue;
+            }
+        </style>
+    </head>
+    <body>
+        <a href="https://www.w3schools.com/css/css_font_google.asp">This is a link</a>
+    </body>
+</html>
