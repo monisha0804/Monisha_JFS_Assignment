@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>JavaScript Assignment</h1> 
+
+<p id="demo"></p>
+
+<script src="q6.js">
+
+</script>
+</body>
+</html>
+
+//JS file
+
+document.write("*******");
+
+var n=["Hello","World","in" , "a","frame"];
+
+function funString(n){
+    for(var i=0; i<n.length;i++){
+        document.write("<br>");
+        document.write("* " +n[i] + " *");
+        
+    }
+}
+funString(n);
+document.write("<br>");
+document.write("*******");
