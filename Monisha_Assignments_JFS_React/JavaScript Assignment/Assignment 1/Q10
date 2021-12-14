@@ -1,0 +1,30 @@
+//HTML File
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>JavaScript Assignment</h1> 
+
+<p id="demo"></p>
+
+<script src="q10.js">
+
+</script>
+</body>
+</html>
+
+//JS File
+
+const number = parseInt(prompt('Enter the number of terms: '));
+let n1 = 0, n2 = 1, temp;
+
+document.write('Fibonacci Series:');
+
+for (let i = 1; i <= number; i++) {
+    document.write(n1);
+    document.write("<br>");
+    temp = n1 + n2;
+    n1 = n2;
+    n2 = temp;
+}
