@@ -1,0 +1,53 @@
+//HTML File
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>JavaScript Assignment</h1> 
+
+<p id="demo"></p>
+
+<script src="q13.js">
+
+</script>
+</body>
+</html>
+
+//JS File
+
+//SUM OF NUMBERS USING FOR LOOP
+
+const array = [1, 2, 3, 4];
+let sum = 0;
+
+for (let i = 0; i < array.length; i++) {
+    sum += array[i];
+}
+document.write("sum of the numbers using for loop = " + sum);
+
+//SUM OF NUMBERS USING WHILE LOOP
+
+const array = [1, 2, 9, 4];
+let sum = 0;
+let i=0;
+
+while(i< array.length) {
+    sum += array[i];
+    i++;
+}
+document.write("sum of the numbers using while loop = " + sum); 
+
+//SUM OF NUMBERS USING DO-WHILE LOOP
+
+const array = [1, 2, 3, 4];
+let sum = 0;
+let i=0;
+
+do {
+    sum += array[i];
+    i++;
+}
+while(i < array.length)
+document.write("sum of the numbers using do-while loop = " + sum);
+
