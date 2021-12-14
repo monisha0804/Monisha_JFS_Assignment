@@ -1,0 +1,32 @@
+//HTML File
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>JavaScript Assignment</h1> 
+
+<p id="demo"></p>
+
+<script src="q7.js">
+
+</script>
+</body>
+</html>
+
+
+//JS File
+
+var dollar=window.prompt("enter the currency in dollar");
+
+var rupees=dollar*74.28;
+document.write("For the given dollar the value in Indian Rupee is " + rupees);
+document.write("<br>");
+var yen=dollar*109.14;
+document.write("For the given dollar the value in Yen is " + yen);
+document.write("<br>");
+var euro=dollar*0.84;
+document.write("For the given dollar the value in Euro is " + euro);
+document.write("<br>");
+var poundSterling=dollar*0.72;
+document.write("For the given dollar the value in Pound Sterling is " + poundSterling);
+document.write("<br>");
