@@ -1,0 +1,38 @@
+//HTML File
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>JavaScript Assignment</h1> 
+
+<p id="demo"></p>
+
+<script src="q9.js">
+
+</script>
+</body>
+</html>
+
+
+//JS File
+
+let a = ["a","b","c"];
+let b = ["1","2","3"];
+
+var value = function(a,b)
+{
+  let l = a.length+b.length;
+  let r = [];
+  let j=0,k=0;
+  for(let i=0; i<l;i++) {
+    if(i%2==0) {
+      r[i]=a[j++];
+    } else {
+      r[i]=b[k++];
+    }
+  }
+  return r;
+}
+
+document.write(value(a,b));
