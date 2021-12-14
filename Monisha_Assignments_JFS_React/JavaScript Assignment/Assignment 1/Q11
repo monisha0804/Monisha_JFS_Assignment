@@ -1,0 +1,35 @@
+//HTML File
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>JavaScript Assignment</h1> 
+
+<p id="demo"></p>
+
+<script src="q11.js">
+
+</script>
+</body>
+</html>
+
+//JS File
+
+const array1 = [1,2,3,4];
+document.write("array1: ", array1);
+//"array1:" Array [1, 2, 3, 4]
+document.write("<br>");
+
+
+const reversedArray = array1.reverse();
+document.write("reversed array: ", reversedArray);
+//"reversed:" Array [4, 3, 2, 1]
+document.write("<br>"); 
+
+
+// Careful: reverse is destructive -- it changes the original array.
+document.write("new array: ", array1);
+//"array1:" Array [4, 3, 2, 1]
+document.write("<br>");
+
