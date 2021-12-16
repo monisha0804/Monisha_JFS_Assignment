@@ -1,0 +1,20 @@
+var Details= {
+
+    firstName:"Kingston",
+    lastName:"college"
+
+}
+
+document.write("first name is :"+ Details.firstName);
+document.write("<br>");
+document.write("last name is : "+ Details.lastName);
+document.write("<br>");
+
+Details.lastName="engineering college";
+
+document.write("Details after changing last name");
+document.write("<br>");
+
+document.write("first name is :"+ Details.firstName);
+document.write("<br>");
+document.write("last name is : "+Details.lastName);
