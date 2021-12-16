@@ -1,0 +1,23 @@
+//JS FILE
+
+var Details={
+
+    firstName:"Kingston",
+    lastName:"college"
+
+}
+
+document.write("first name is :"+ Details.firstName);
+document.write("<br>");
+document.write("last name is : "+Details.lastName);
+document.write("<br>");
+
+
+
+
+document.write("before adding middle name: "+ Details.middleName);
+document.write("<br>");
+
+Details.middleName="engineering";
+
+document.write("after adding middle name: "+ Details.middleName);
