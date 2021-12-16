@@ -1,0 +1,17 @@
+//JS file
+class Rectangle {
+    constructor(height, width) {
+      this.height = height;
+      this.width = width;
+    }
+  
+    // adding new method to class to calculate area of rectangle
+    get getArea() {
+      return this.height * this.width;
+    }
+  }
+  
+  const r = new Rectangle(20, 10);
+  
+  // calling method
+ document.write(r.getArea);
