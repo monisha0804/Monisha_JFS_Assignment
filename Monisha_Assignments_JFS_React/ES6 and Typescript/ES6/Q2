@@ -1,0 +1,14 @@
+//JS FILE
+
+function scoping(value){
+if(value = 10){
+
+    let a=89;
+    document.write(a);
+
+}
+
+document.write(a); //undefined error as value inside if loop can not be accessed outside the loop
+
+}
+scoping(10);
