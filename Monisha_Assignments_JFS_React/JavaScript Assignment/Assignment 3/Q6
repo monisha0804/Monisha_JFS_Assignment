@@ -1,0 +1,6 @@
+//JS FILE
+
+var string = '({"fname" : "Kingston", "lname" : "College"})';
+var obj = eval(string);
+obj.lname = "Engineering College";
+document.write(obj.fname + "  " + obj.lname);
