@@ -1,0 +1,23 @@
+//HTML file
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            ES6 Assignment
+        </title>
+    </head>
+    <body>
+        <script src="q1.js">
+
+        </script>
+    </body>
+</html>
+
+//JS FILE
+
+const a=10;
+document.write(a);
+
+a=20;  //uncaught type error : value "a" is assigned as constant in line  1
+document.write(a); 
