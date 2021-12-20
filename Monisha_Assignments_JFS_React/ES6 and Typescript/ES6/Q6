@@ -1,0 +1,21 @@
+// HTML File
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>assignment</title>
+</head>
+<body>
+    
+</body>
+<script src="q6.js"></script>
+</html>
+
+//js file 
+
+let mobile={
+    brand: samsung,
+    color: `interstellar-black`,
+    username: `arun`
+}
+console.log(`The broadband is "${mobile.brand}" with color ${mobile.color} and name ${mobile.username} `);
