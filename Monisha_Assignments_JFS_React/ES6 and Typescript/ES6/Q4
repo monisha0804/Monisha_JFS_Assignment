@@ -1,0 +1,19 @@
+// HTML file
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ES6 Assignment</title>
+</head>
+<body>
+    
+</body>
+<script src="q4.js"></script>
+</html>
+
+//js file 
+
+var movies={
+    moviearray:["titanic" , "narnia" , "avatar","harry potter"],
+
+};
