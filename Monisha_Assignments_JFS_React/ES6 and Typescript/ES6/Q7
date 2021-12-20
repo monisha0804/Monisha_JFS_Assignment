@@ -1,0 +1,18 @@
+//HTML File
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ES6 Assignment</title>
+</head>
+<body>
+    
+</body>
+<script src="q7.js"></script>
+</html>
+
+//js file 
+
+var value1=[1,2,3,4,5,6];
+var [,,,value2]=value1;
+console.log(value2);
