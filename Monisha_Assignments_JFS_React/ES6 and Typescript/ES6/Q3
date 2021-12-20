@@ -1,0 +1,32 @@
+//HTML File
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ES6 Assignment</title>
+</head>
+<body>
+    
+</body>
+<script src="q3.js"></script>
+</html>
+
+//js file 
+let Order={
+    id:001,
+    title:"DominosCoupon",
+    price:5,
+
+    printOrder:function () {
+        console.log("The details of the order ${this.id}  ${this.title}  {this.$price}");
+    },
+    getPrice:function () {
+        console.log(`Price is: ${this.price}`);
+        
+    }
+
+};
+
+let couponOrder=Object.assign({},Order) 
+console.log(couponOrder);
+console.log(couponOrder.getPrice);
